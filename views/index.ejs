@@ -4,12 +4,13 @@
 	<meta charset="UTF-8">
 	<title>Information</title>
 
-	<!-- CSS -->
 	<!-- load bootstrap and our own personal stylesheet -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	
+	<!-- CSS -->
 	<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/superhero/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/paper/bootstrap.min.css">
-
 </head>
 <body>
 
@@ -21,7 +22,7 @@
 			<div class="form-group">
 		    		<label class="control-label col-sm-2" for="records">Records:</label>
 		    		<div class="col-sm-10">
-		      			<input type="number" class="form-control" id="records" placeholder="Enter number of records">
+		      			<input type="number" data-min="1" data-max="1000000000" data-buttons="false" class="form-control" id="records" placeholder="Enter number of records">
 		    		</div>
 		  	</div>
 			<div class="form-group">
