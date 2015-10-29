@@ -1,6 +1,6 @@
 {
-  "name": "node-sample",
-  "description": "Our sample Node to Heroku app",
+  "name": "Impact",
+  "description": "Simple impact calculator",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
