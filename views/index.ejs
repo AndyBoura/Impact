@@ -82,24 +82,21 @@
       
       /* Cookie law */
       .cookie-message {
-  position:fixed;
-  top:0;left:0;right:0;
-  padding:0 85px 0 20px;
-  background:#fff;
-  border-bottom:1px solid #ccc;
-  box-shadow:0px 0px 3px #ccc;
-  z-index: 99;
-}
-.cookie-message a {
-  position:absolute;
-  top:0; *top:-2px; right:20px;
-  cursor:pointer;
-}
-.cookie-message p, .cookie-message a {
-  color:#333;
-  font:bold 11px/18px Arial;
-  margin:0.6em 0;
-}
+	  position:fixed;
+	  top:0;left:0;right:0;
+	  padding:0 85px 0 20px;
+	  margin-bottom:20px;
+	  background:#fff;
+	  border-bottom:1px solid #ccc;
+	  box-shadow:0px 0px 3px #ccc;
+	  z-index: 99;
+	}
+
+	.cookie-message p {
+	  color:#333;
+	  font:bold 11px/18px Arial;
+	  margin:0.6em 0;
+	}
 .blue {
   border-bottom:1px solid #0E83AE;
   background-color:#0990c3;
@@ -111,6 +108,7 @@
   background: linear-gradient(#0e83ae, #0990c3, #0e9dd2);
 }
 .blue p, .blue a { color:#fff; }
+
     </style>
 </head>
 <body>
@@ -222,7 +220,7 @@
 	</script>
 
 <div class="cookie-message">
-    Cookies are used to help create, and improve, a great user experience. No sensitive data is stored in the cookies from this site. <a class="my-close-button btn btn-large btn-success" href>Accept</a>
+    <p>Cookies are used to help create, and improve, a great user experience on designed.online. No sensitive data is stored in these cookies. <a class="my-close-button btn btn-large btn-success" href>Accept</a></p>
 </div>
 
 </body>
