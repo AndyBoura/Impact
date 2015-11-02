@@ -30,7 +30,7 @@ C = {
 
     createDiv: function () {
         var banner = $(
-            '<div class="alert alert-success alert-dismissible fade in" ' +
+            '<div class="alert alert-dismissible fade in" ' +
             'role="alert" style="position: fixed; bottom: 0; width: 100%; ' +
             'margin-bottom: 0"><strong>' + this.bannerTitle + '</strong> ' +
             this.bannerMessage + ' <a href="' + this.bannerLinkURL + '">' +
