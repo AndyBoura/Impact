@@ -17,7 +17,7 @@ C = {
     bannerTitle: "Cookies:",
 
     // Message banner message
-    bannerMessage: "Cookies are used to help create a great user experience on designed.online and make improvements to interactions and workflows. No sensitive data is stored in these cookies.",
+    bannerMessage: "Cookies are used to help create a great user experience and make improvements to interactions and workflows on designed.online. No sensitive data is stored in these cookies.",
 
     // Message banner dismiss button
     bannerButton: "OK",
@@ -32,12 +32,12 @@ C = {
         var banner = $(
             '<div class="alert alert-info alert-dismissible fade in" ' +
             'role="alert" style="position: fixed; bottom: 0; width: 100%; ' +
-            'margin-bottom: 0"><strong>' + this.bannerTitle + '</strong> ' +
-            this.bannerMessage + ' <a href="' + this.bannerLinkURL + '" class="alert-link">' +
-            this.bannerLinkText + '</a> <button type="button" class="btn ' +
-            'btn-success" onclick="C.createCookie(C.cookieName, C.cookieValue' +
+            'margin-bottom: 0"><button type="button" class="btn ' +
+            'btn-success pull-right" onclick="C.createCookie(C.cookieName, C.cookieValue' +
             ', C.cookieDuration)" data-dismiss="alert" aria-label="Close">' +
-            this.bannerButton + '</button></div>'
+            this.bannerButton + '</button><strong>' + this.bannerTitle + '</strong> ' +
+            this.bannerMessage + ' <a href="' + this.bannerLinkURL + '" class="alert-link">' +
+            this.bannerLinkText + '</a> </div>'
         )
         $("body").append(banner)
     },
