@@ -17,8 +17,7 @@ C = {
     bannerTitle: "Cookies:",
 
     // Message banner message
-    bannerMessage: "Cookies are used to help create a great user experience on designed.online and make improvements 
-    to interactions and workflows. No sensitive data is stored in these cookies.",
+    bannerMessage: "Cookies are used to help create a great user experience on designed.online and make improvements to interactions and workflows. No sensitive data is stored in these cookies.",
 
     // Message banner dismiss button
     bannerButton: "OK",
