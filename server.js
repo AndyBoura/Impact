@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var expressHbs = require('express3-handlebars');
+var expressHbs = require('express-handlebars');
 
 // set the port of our application
 // process.env.PORT lets the port be set by Heroku
