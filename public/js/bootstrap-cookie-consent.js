@@ -17,13 +17,14 @@ C = {
     bannerTitle: "Cookies:",
 
     // Message banner message
-    bannerMessage: "This site uses cookies to deliver its services.",
+    bannerMessage: "Cookies are used to help create a great user experience on designed.online and make improvements 
+    to interactions and workflows. No sensitive data is stored in these cookies.",
 
     // Message banner dismiss button
     bannerButton: "OK",
 
     // Link to your cookie policy.
-    bannerLinkURL: "/legal-docs/data-protection.html",
+    bannerLinkURL: "/legal/data-protection.html",
 
     // Link text
     bannerLinkText: "Read more",
