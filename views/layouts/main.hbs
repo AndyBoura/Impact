@@ -30,7 +30,8 @@
       /* Set the fixed height of the footer here */
       #push,
       #footer {
-        height: 44px;
+        height: 28px;
+        margin: 8px 0 0 0;
       }
       #footer {
         background-color: #f5f5f5;
@@ -89,22 +90,18 @@
 	  font:bold 11px/18px Arial;
 	  margin:0.6em 0;
 	}
-.blue {
-  border-bottom:1px solid #0E83AE;
-  background-color:#0990c3;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0e83ae), color-stop(50%, #0990c3), color-stop(100%, #0e9dd2));
-  background: -webkit-linear-gradient(#0e83ae, #0990c3, #0e9dd2);
-  background: -moz-linear-gradient(#0e83ae, #0990c3, #0e9dd2);
-  background: -o-linear-gradient(#0e83ae, #0990c3, #0e9dd2);
-  background: -ms-linear-gradient(#0e83ae, #0990c3, #0e9dd2);
-  background: linear-gradient(#0e83ae, #0990c3, #0e9dd2);
-}
-.blue p, .blue a { color:#fff; }
+	.blue {
+	  border-bottom:1px solid #0E83AE;
+	  background-color:#0990c3;
+	  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0e83ae), color-stop(50%, #0990c3), color-stop(100%, #0e9dd2));
+	  background: -webkit-linear-gradient(#0e83ae, #0990c3, #0e9dd2);
+	  background: -moz-linear-gradient(#0e83ae, #0990c3, #0e9dd2);
+	  background: -o-linear-gradient(#0e83ae, #0990c3, #0e9dd2);
+	  background: -ms-linear-gradient(#0e83ae, #0990c3, #0e9dd2);
+	  background: linear-gradient(#0e83ae, #0990c3, #0e9dd2);
+	}
+	.blue p, .blue a { color:#fff; }
 	</style>
-
-	<script language="javascript"> 
-		//$(document).ready(function(){C.init()});
-    	</script>
 </head>
 <body>
    <div id="wrap">
@@ -129,7 +126,7 @@
     
     <div id="footer">
       <div class="container">
-        <p class="muted credit"><span class="pull_right">legal | privacy policy | security statement</span>&copy; designed.online 2015</p>
+        <div class="pull_right">legal | privacy policy | security statement</div><p class="muted credit">&copy; designed.online 2015</p>
       </div>
     </div>
 
