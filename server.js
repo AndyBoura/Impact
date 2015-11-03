@@ -1,6 +1,11 @@
+var compression = require('compression')
+var expressHbs = require('express-handlebars');
+
 var express = require('express');
 var app = express();
-var expressHbs = require('express-handlebars');
+
+// compress responses
+app.use(compression())
 
 // set the port of our application
 // process.env.PORT lets the port be set by Heroku
